@@ -12,7 +12,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap" rel="stylesheet">
 
        <!-- External CSS -->
-       <link rel="stylesheet" href="./sample.css">
+       <link rel="stylesheet" href="./index.css">
 
 
        	<!-- Required meta tags -->
@@ -23,36 +23,36 @@
 	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
 </head>
-	<body>
+	<body class="container-fluid">
 
+		
 		<!-- Navbar Start-->
         
-        <div class="container-fluid text-center bg-primary text-light d-inline-block p-1 fixed-top">
-        	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-		  <a class="navbar-brand" href="#"></a >
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNav">
-		    <ul class="navbar-nav ml-auto">
-		    	<li class="nav-item active">
-		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-		      </li>
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">Projects</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">Tools</a>
-		      </li>
-		    </ul>
-		  </div>
-		</nav>
-
-
-
+        <div class="text-light d-inline fixed-top">
+        	<nav id="top" class="navbar navbar-expand-lg navbar-dark">
+				  <a class="navbar-brand" href="#top"></a >
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+					  <div class="collapse navbar-collapse" id="navbarNav">
+					    <ul class="navbar-nav ml-auto">
+					    	<li class="nav-item active">
+					        <a class="nav-link" href="#top"><span>Home</span></a>
+					     	</li>
+						    <li class="nav-item active">
+						      <a class="nav-link" href="#profile"><span>About Me</span></a>
+						    </li>
+						    <li class="nav-item active">
+						      <a class="nav-link" href="#myprojects">Projects</a>
+						    </li>
+						    <li class="nav-item active">
+						      <a class="nav-link" href="#tools">Tools</a>
+						    </li>
+						    <li class="nav-item active">
+						      <a class="nav-link" href="#contactme">Contact Me</a>
+						    </li>
+					    </ul>
+					  </div>
 			</nav>
       </div>
         <!-- Navbar End-->
@@ -60,96 +60,162 @@
 
         <!-- About Me -->
 
-		<div class="card text-center d-block m-5 p-5">
-			<div class="card-body">
-                <img width="250" src="./images/pp.jpg"/ class="rounded-circle bg-white" class="p-5">
-                <h2>Hello I'm April Marie</h2>
-				<h4>Full-Stack Web Developer</h4>
+
+    <div  id="profile" class="row">
+
+		<div class="d-flex justify-content-center col-sm-12 col-md-4">
 			
+			<div>
+                <img src="./images/profile.jpg"/ class="rounded-circle bg-white" class="img-fluid" height="580" width="550">
             </div>
+         </div>
+
+        <div class="d-inline-block text-center col-sm-12 col-md-8">
+            <div class="profile-caption">
+                <h1 class="p-3">Hello I'm April Marie</h1>
+				<h2 class="p-3">Full-Stack Web Developer</h2>
+				<p class="pt-5">I am an Engineer by professional with over 7 years of  experience in handling technical works and data analysis. As well, as making presentation reports. My professional experience stems from years of providing strong team support, creative problem solving and product quality assurance. Now, taking the path of becoming a Web Developer and eventually, integrate both knowledge.</p>
+            </div>
+           
         </div>
 
+   	</div>
 
 		<!-- Projects Start -->
-		<div>
-		<h3 class="text-center p-3">My Projects</h3>
 
-		</div>
+	 <div id="myprojects"  class="container-fluid border">
+		<h3 class="text-center">My Projects</h3>
+		
 
-		<div class="container-fluid d-flex d-inline-block text-center">
-
+			<div class="row text-center border">
 
                 <!-- Web Dev Start -->
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <img width="400" height="250" src="./images/web dev.jpg">
-                    <h5>Web Development</h5>
-                    <p>Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. Web developers, or 'devs', do this by using a variety of coding languages.</p>
+                <div class="row d-inline-block col order-sm-1 col-md-4 border">
+                    <img src="./images/web dev.jpg" class="col order-sm-1 order-md-1" class="img-fluid" style="height: 400px; width: 600px;" />
+                    <h5  class="text-center pt-3 pb-3">Web Development</h5>
+                    <p class="text-justified pt-3 pb-3 col order-sm-2 order-md-2">Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. Web developers, or 'devs', do this by using a variety of coding languages.</p>
                 </div>
-                <!-- HTML End -->
+                <!-- Web Dev End -->
 
                 <!-- Data Start -->
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <img width="400" height="250" src="./images/data.jpg">
-                    <h5>Data Analytics</h5>
-                    <p>Data analytics (DA) is the process of examining data sets in order to find trends and draw conclusions about the information they contain. Increasingly, data analytics is done with the aid of specialized systems and software.</p>
+                <div class="row d-inline-block col order-sm-2 col-md-4 border">
+                    <img src="./images/data.jpg" class="col order-sm-1 order-md-1" class="img-fluid" style="height: 400px; width: 600px;" />
+                    <h5 class="text-center pt-3 pb-3">Data Analytics</h5>
+                    <p class="ttext-justified pt-3 pb-3 col order-sm-2 order-md-2">Data analytics is the process of examining data sets in order to find trends and draw conclusions about the information they contain. Increasingly, data analytics is done with the aid of specialized systems and software.</p>
                 </div>
-                <!-- Bootstrap End -->
+                <!-- Data End -->
 
                 <!-- Blog  Start -->
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <img width="400" height="250" src="./images/vlog.jpg">
-                    <h5>Blog</h5>
-                    <p>Blogs are websites that are hosted usually on the internet. It is one of the most important tools for marketing and communication, and it is not very difficult to maintain. Anyone can run it, from an individual to a group to an organisation, for posting personal opinions, publishing data, advertising goods, or even disseminating information.</p>
+                <div class="row d-inline-block col order-sm-3 col-md-4 border">
+                    <img src="./images/vlog.jpg" class="col order-sm-1 order-md-1" class="img-fluid" style="height: 400px; width: 600px;" />
+                    <h5 class="text-center pt-3 pb-3">Blog</h5>
+                    <p class="text-justified pt-3 pb-3 col order-sm-2 order-md-2">Blogs are websites that are hosted usually on the internet. It is one of the most important tools for marketing and communication, and it is not very difficult to maintain. Anyone can run it, from an individual to a group to an organisation, for posting personal opinions, publishing data, advertising goods, or even disseminating information.</p>
                 </div>
-                <!-- Node JS Server Card End -->
+                <!-- Blog End -->
+
+	         </div>
+
+	 </div>
+	         <!-- Projects End -->
 
 
-         </div>
-         <!-- Projects End -->
 
 
 
 
 
+		<!-- Tools Section Start -->
 
-			<!-- Tools Section Start -->
-         	   <div>
+			<div id="tools" class="container-fluid">
+         	  
+         	   	<h2 class="text-center p-3 m-3">
+         	   		Tools
+         	   	</h2>
 
-                <!-- Core Tools Section Start -->
-                <h3 class="text-center p-3">Tools Used</h3>
+			<div class="row container-fluid p-3">
 
-                <div>
-                    <div class="p-3 d-flex justify-content-center align-items-center">
-                        <img width="150" height="150" src="images/tools/html.png"/>
-                   		<img width="150" height="150" src="images/tools/css.png"/>
-                        <img width="150" height="150" src="images/tools/js.png"/>
-                    </div>
-                </div>
-                <!-- Core Tools Section End -->
+
+                <!-- Front End Start -->
                 
-                <!-- Other Tools Section Start -->
-                <h3 class="text-center p-3">Other Tools</h3>
+                <div class="mt-3 col-4 text-center border">
 
-                <div class="p-3 d-flex text-center justify-content-around align-items-center">
-                    <div class="d-flex col-sm-6 col-md-auto p-3">
-                    	<img width="150" height="150" src="images/tools/bootstrap.jpg"/>
-                        <img width="150" height="150" src="./images/tools/mongoDB.png"/>
-                        <img width="150" height="150" src="./images/tools/nodejs.png"/>
-                        <img width="150" height="150" src="./images/tools/express.png"/>
-                        <img width="150" height="150" src="./images/tools/react.png"/>
-                        <img width="150" height="150" src="./images/tools/git.png"/>
-                        <img width="150" height="150" src="images/tools/sublime.png"/>
-                        <img width="150" height="150" src="images/tools/postman.png"/>
-                        <img width="150" height="150" src="images/tools/gitlab.png"/>
-                    </div>
+                	<h3 class="text-center p-3">Front End</h3>
+                  		<div class="d-flex flex-sm-row flex-md-column justify-content-center">
+                  			<div>
+	                        <img width="120" height="120" src="images/tools/html.png" class="p-3" />
+	                   		<img width="120" height="120" src="images/tools/css.png" class="p-3" />
+	                   		</div>
+	                   		<div>
+	                        <img width="120" height="120" src="images/tools/js.png" class="p-3" />
+	                        <img width="120" height="120" src="images/tools/bootstrap.jpg" class="p-3" />
+	                        </div>
+                   		</div>
                 </div>
-                <!-- Other Tools Section End -->
+                <!-- Front End End -->
+                
+                <!-- MERN Start -->
+               
+                <div class="mt-3 col-4 text-center">
+
+                	 <h3 class="text-center p-3">MERNs</h3>
+                   		<div class=" d-flex flex-sm-row flex-md-column">
+                   			<div>
+	                    	<img width="120" height="120" src="./images/tools/mongoDB.png" class="p-3" />
+	                        <img width="120" height="120" src="./images/tools/nodejs.png" class="p-3" />
+	                        </div>
+	                   		<div>
+	                        <img width="120" height="120" src="./images/tools/express.png" class="p-3" />
+	                        <img width="120" height="120" src="./images/tools/react.png" class="p-3" />
+	                        </div>
+	                    </div>
+                 </div>
+                <!-- MERN End -->   
+
+
+                <!-- MERN Start -->
+                
+                <div class="mt-3 col-4 text-center">
+
+                	<h3 class="text-center p-3">Other Tools</h3>
+                	   	<div class="d-flex flex-sm-row flex-md-column justify-content-center">
+                	   		<div>
+							<img width="120" height="120" src="images/tools/heroku.png" class="p-3" />
+	                        <img width="120" height="120" src="./images/tools/git.png" class="p-3" />
+	                        </div>	                   		
+	                        <div>
+	                        <img width="120" height="120" src="images/tools/sublime.png" class="p-3" />
+	                        <img width="120" height="120" src="images/tools/postman.png" class="p-3" />
+	                        </div>
+                    	</div>
+                </div>
+                <!-- MERN End -->
                 
             </div>
+
+            </div>
+
             <!-- Tools Section End -->
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 		<!-- Contact Me Start -->
+		<div id="contactme">
+
+		<h3 class="text-center p-2">
+			Contact Me
+		</h3>
 
 		<div class="bg-light d-flex col-sm-12 col-md-12 col-lg-12 justify-content-center p-2">
 						<div class="card bg-light d-flex text-dark p-3">
@@ -195,9 +261,9 @@
 
 			</div>
 		</div>
-		
+		</div>
 		<!-- Contact Me End -->
-
+		
 
 
 <!-- Optional JavaScript; choose one of the two! -->

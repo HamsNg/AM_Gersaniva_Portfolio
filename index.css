@@ -1,3 +1,4 @@
+/*CSS Reset*/
 * {
 	margin: 0;
 	padding: 0;
@@ -7,6 +8,38 @@
 /*Font*/
 body {
 	font-family: 'Brygada 1918', serif;
+	
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 
+#top {
+	background-color: #27323C;
+}
+
+
+
+#profile {
+	background-color: #B7D8EA;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+
+
+
+
+.profile-caption {
+	 padding: 100px;
+	 margin-right: 200px;
+	 font-size: 1.7rem;
+	 text-align: justify;
+}
+
+/*.profile-caption h1 {
+	
+}
+*/
