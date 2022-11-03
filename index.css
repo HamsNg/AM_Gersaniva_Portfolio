@@ -8,7 +8,6 @@
 /*Font*/
 body {
 	font-family: 'Brygada 1918', serif;
-	
 }
 
 html {
@@ -17,7 +16,7 @@ html {
 
 
 #top {
-	background-color: #27323C;
+	background-color: #25363e;
 }
 
 
@@ -33,9 +32,9 @@ html {
 
 
 .profile-caption {
-	 padding: 100px;
-	 margin-right: 200px;
-	 font-size: 1.7rem;
+	 padding: 50px;
+	 margin-right: 100px;
+	 font-size: 1rem;
 	 text-align: justify;
 }
 
@@ -43,3 +42,50 @@ html {
 	
 }
 */
+
+
+#hrline {
+	background-color: #B7D8EA;
+}
+
+
+
+#myprojects {
+	background-color: #B7D8EA;
+}
+
+
+#tools {
+	background-color: #B7D8EA;
+	
+}
+
+
+#contactme {
+	background-color: #B7D8EA;
+}
+
+
+.form-group {
+	text-align: center;
+	background-color: white;
+	border: solid 0.5px;
+	height: 60px;
+	width: 20vw;
+	position: relative;
+	}
+
+button {
+	text-align: center;
+	border: none;
+	height: 35x;
+	width: 10vw;
+	}
+
+#maps {
+	background-color: #B7D8EA
+}
+
+#footer {
+	background-color: #27323C;
+}
