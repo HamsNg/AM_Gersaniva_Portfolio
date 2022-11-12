@@ -70,16 +70,13 @@ html {
 	text-align: center;
 	background-color: white;
 	border: solid 0.5px;
-	height: 60px;
-	width: 20vw;
-	position: relative;
 	}
 
 button {
 	text-align: center;
 	border: none;
-	height: 35x;
-	width: 10vw;
+	height: 35px;
+	width: 80px;
 	}
 
 #maps {
