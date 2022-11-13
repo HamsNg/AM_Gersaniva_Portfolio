@@ -33,9 +33,9 @@ html {
 
 .profile-caption {
 	 padding: 50px;
-	 margin-right: 100px;
+	 margin-x: 50px;
 	 font-size: 1rem;
-	 text-align: justify;
+	 text-align: center;
 }
 
 /*.profile-caption h1 {
@@ -52,6 +52,7 @@ html {
 
 #myprojects {
 	background-color: #B7D8EA;
+	text-align: center;
 }
 
 
@@ -79,9 +80,9 @@ button {
 	width: 80px;
 	}
 
-#maps {
+/*#maps {
 	background-color: #B7D8EA
-}
+}*/
 
 #footer {
 	background-color: #27323C;
