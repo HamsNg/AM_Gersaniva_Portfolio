@@ -32,8 +32,8 @@ html {
 
 
 .profile-caption {
-	 padding: 50px;
-	 margin-x: 50px;
+	 margin-top: 50px;
+	 margin-right: 150px;
 	 font-size: 1rem;
 	 text-align: center;
 }
@@ -48,6 +48,11 @@ html {
 	background-color: #B7D8EA;
 }
 
+
+#hrlinetools {
+	border-color: #FFFFFF;
+	border-width: 2px;
+}
 
 
 #myprojects {
@@ -86,4 +91,5 @@ button {
 
 #footer {
 	background-color: #27323C;
+	padding: 0;
 }

@@ -37,11 +37,11 @@
 					  <div class="collapse navbar-collapse" id="navbarNav">
 					    <ul class="navbar-nav ml-auto">
 					    	<li class="nav-item active">
-					        <a class="nav-link" href="#top"><span>Home</span></a>
+					        <a class="nav-link" href="#profile"><span>Home</span></a>
 					     	</li>
 						    <li class="nav-item active">
 						      <a class="nav-link" href="#profile"><span>About Me</span></a>
-						    </li>
+						    </li>	
 						    <li class="nav-item active">
 						      <a class="nav-link" href="#myprojects">Projects</a>
 						    </li>
@@ -61,22 +61,23 @@
         <!-- About Me Start-->
 
 
-    <div  id="profile" class="row">
+    <div  id="profile" class="container-fluid">
 
-		<div class="text-center col-lg-4 p-2">		
-			<div>
+		<div class="d-lg-flex d-inline-block justify-content-around">		
+			<div class="p-3 text-center col-lg-6 col-sm-12">
                 <img src="./images/pp.jpg"/ class="rounded-circle bg-white" class="img-fluid" height="300" width="300">
-            </div>
-         </div>
+          	</div>
+          
 
-        <div class="text-center col-lg-8">
-            <div class="profile-caption">
+        
+            <div class="profile-caption p-3 text-center col-lg-6 col-sm-12">
                 <h2>Hello I'm April Marie</h2>
 				<h4>Full-Stack Web Developer</h4>
 				<p class="pt-3">I am an Engineer by professional with over 7 years of  experience in handling technical works and data analysis. As well, as making presentation reports. My professional experience stems from years of providing strong team support, creative problem solving and product quality assurance. Now, taking the path of becoming a Web Developer and eventually, integrate both knowledge.</p>
             </div>
-           
-        </div>
+         </div>
+         
+       
 
    	</div>
 
@@ -88,78 +89,54 @@
 <hr id="hrline">
 
 
+<div id="myprojects" class="container-fluid p-3">
+
+            <h3 class="text-center p-3">My Projects</h3>
 
 
-<!-- Other Projects Container Start -->
+            <!-- My Projects Start -->
 
-				<div id="myprojects" class="row flex-column text-center py-3">
+            <div class="d-md-flex d-inline-block justify-content-between p-3">
 
-					<h3>Projects</h3>
+                <!-- WD Start -->
+                <div class="p-3 text-center col-md-4 col-sm-12">
+                    <img src="./images/Projects/webdev.png" class="img-fluid" style="height: 300px; width: 550px;">
+                    <h5 class="text-center p-3">Web Development</h5>
+                    <p class="text-justified p-3">Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. Web developers, or 'devs', do this by using a variety of coding languages.</p>
+                    <a href="./webDev.html" class="btn btn-primary">Link to Project</a>
+                </div>
+                <!-- WD End -->
 
-					<div class="d-flex bg-transparent p-md-3 justify-content-center">
+                <!-- Blog Start -->
+                <div class="p-3 text-center col-md-4 col-sm-12">
+                    <img src="./images/Projects/blog.jpg" class="img-fluid" style="height: 300px; width: 550px;">
+                    <h5  class="text-center p-3">Blog</h5>
+                    <p  class="text-justified p-3">Blogs are websites that are hosted usually on the internet. It is one of the most important tools for marketing and communication, and it is not very difficult to maintain. Anyone can run it, from an individual to a group to an organisation, for posting personal opinions, publishing data, advertising goods, or even disseminating information.</p>
+                    <a href="./blog.html" class="btn btn-primary">Link to Project</a>
+                </div>
+                <!-- Blog End -->
 
+                <!-- Nose JS Server Card Start -->
+                <div class="p-3 text-center col-md-4 col-sm-12">
+                    <img src="./images/Projects/dA.jpg" class="img-fluid" style="height: 300px; width: 550px;">
+                    <h5 class="text-center p-3">Data Analytics</h5>
+                    <p class="text-justified p-3">Data analytics is the process of examining data sets in order to find trends and draw conclusions about the information they contain. Increasingly, data analytics is done with the aid of specialized systems and software.</p>
+                    <a href="./dA.html" class="btn btn-primary">Link to Project</a>
+                </div>
+                <!-- Node JS Server Card End -->
 
-						<!-- HTML Card Start -->
-						<div class="col-md-4 text-dark p-2">
-						  <div>
-						  <img src="./images/Projects/webdev.png" class="img-fluid" style="height: 200px; width: 300px;" alt="...">
-						  <div>
-						    <h5>Web Development</h5>
-						    <p>Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. Web developers, or 'devs', do this by using a variety of coding languages.</p>
-						    <a href="./webDev.html" class="btn btn-primary">Link to Project</a>
-						  </div>
-						  </div>
-						</div>
-
-						<!-- HTML Card Start -->
-
-
-
-						<!-- Bootstrap Card Start -->
-
-						<div class="col-md-4 text-dark p-2">
-						  <div>
-						  <img src="./images/Projects/blog.jpg" class="img-fluid" style="height: 200px; width: 300px;" alt="...">
-						  <div>
-						    <h5>Blog</h5>
-						    <p >Blogs are websites that are hosted usually on the internet. It is one of the most important tools for marketing and communication, and it is not very difficult to maintain. Anyone can run it, from an individual to a group to an organisation, for posting personal opinions, publishing data, advertising goods, or even disseminating information.</p>
-						    <a href="./blog.html" class="btn btn-primary">Link to Project</a>
-						  </div>
-						  </div>
-						</div>
-
-						<!-- Bootstrap Card End -->
+            </div>
+            <!-- My Projects End -->
 
 
 
-						<!-- NodeJS Server Card Start -->
-
-						<div class="col-md-4 text-dark p-2">
-						  <div>
-						  <img src="./images/Projects/dA.jpg" class="img-fluid" style="height: 200px; width: 300px;" alt="...">
-						  <div>
-						    <h5>Data Analytics</h5>
-						    <p>Data analytics is the process of examining data sets in order to find trends and draw conclusions about the information they contain. Increasingly, data analytics is done with the aid of specialized systems and software.</p>
-						    <a href="./dA.html" class="btn btn-primary">Link to Project</a>
-						  </div>
-						  </div>
-						</div>
-
-						<!-- NodeJS Server Card End -->
-
-					</div>
+<hr id="hrlinetools">
 
 
-				</div>
-					<!-- Other Projects Container End -->
-
-
-
-    <hr id="hrline">
 
 	<!-- Tools Start -->
 
-		<div id="tools" class="row flex-column text-center py-3">	
+		<div id="tools" class="container-fluid p-3">	
 
 			<h3>Tools</h3>
 		 			
@@ -261,6 +238,8 @@
 	    
 	    <!-- Tools End -->
 
+	 </div>
+
 
 
     <hr id="hrline">
@@ -269,7 +248,7 @@
 
 	<!-- Contact Me Start -->
 
-	<div id="contactme" class="row d-flex justify-content-center">
+	<div id="contactme" class="d-flex justify-content-center">
 
 		<div class="d-inline-block">
 
@@ -447,7 +426,7 @@
 
 		<!-- Start of Footer -->
 
-	<div id="footer" class="d-flex justify-content-center row border border-dark">
+	<div id="footer" class="d-flex justify-content-center border border-dark">
         <div class="text-center text-light">
             <p>April Marie Gersaniva</p>
             <p>&#169 All Rights Reserved 2022</p>
